@@ -1,4 +1,4 @@
-package MedicalRecord.java;
+
 
 public class MedicalRecord {
     private String recordID;
