@@ -4,13 +4,13 @@ public class MedicalRecord {
     private String recordID;
     private String diagnosis;
     private String prescription;
-    private String data;
+    private String date;
     private String doctorName;
     public MedicalRecord(String recordID, String diagnosis, String prescription, String data, String doctorName) {
         this.recordID = recordID;
         this.diagnosis = diagnosis;
         this.prescription = prescription;
-        this.data = data;
+        this.date = data;
         this.doctorName = doctorName;
     }
     public void printInfo() {
