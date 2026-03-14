@@ -27,7 +27,7 @@ public class MedicalRecord {
     }public String getPrescription() {
         return prescription;
     }public String getData() {
-        return data;
+        return date;
     }public String getDoctorName() {
         return doctorName;
     }
